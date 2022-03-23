@@ -17,7 +17,7 @@ if __name__ == "__main__":
         }
 
     for location in locations:
-        new_parser = Parser(locations[location], f'./{location}.csv')
+        new_parser = Parser(locations[location], f'./Data/{location}.csv')
         t0 = time.time()
         new_parser.parse()
         print(location, time.time() - t0)
