@@ -1,0 +1,1107 @@
+{
+    "url": "https://www.airbnb.com/rooms/921168",
+    "name": "Urban Homestead Boarding House: Green Room",
+    "stars": 4.5,
+    "numberOfGuests": 2,
+    "address": "Little Rock, Arkansas, United States",
+    "roomType": "Private room in bungalow",
+    "location": {
+      "lat": 34.73275,
+      "lng": -92.30075
+    },
+    "reviews": [
+      {
+        "author": {
+          "firstName": "Valerio",
+          "hasProfilePic": true,
+          "id": 253718617,
+          "pictureUrl": "https://a0.muscache.com/im/pictures/user/a3e92756-f2c8-4df1-8a3e-b43718ee38e0.jpg?aki_policy=profile_x_medium",
+          "smartName": "Valerio",
+          "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/a3e92756-f2c8-4df1-8a3e-b43718ee38e0.jpg?aki_policy=profile_small"
+        },
+        "authorId": 253718617,
+        "canBeEdited": false,
+        "comments": "Everything was good and taken care of. I never felt unsafe in the neighborhood, but locals always seemed to shudder when I told them where I was staying. Communication was good and they were helpful with what I needed. It is a humble place, but the value was good.",
+        "createdAt": "2022-02-26T22:30:35Z",
+        "id": 571078274375656450,
+        "idStr": "571078274375656440",
+        "listingId": 921168,
+        "recipientId": 4952065,
+        "collectionTag": null,
+        "listing": {
+          "id": 921168,
+          "listingIdStr": "921168",
+          "name": "Urban Homestead Boarding House: Green Room"
+        },
+        "rating": 4,
+        "recipient": {
+          "firstName": "Kevin",
+          "hasProfilePic": true,
+          "id": 4952065,
+          "pictureUrl": "https://a0.muscache.com/im/users/4952065/profile_pic/1364578195/original.jpg?aki_policy=profile_x_medium",
+          "smartName": "Kevin",
+          "thumbnailUrl": "https://a0.muscache.com/im/users/4952065/profile_pic/1364578195/original.jpg?aki_policy=profile_small"
+        },
+        "response": "",
+        "role": "guest",
+        "language": "en",
+        "userFlag": null
+      },
+      {
+        "author": {
+          "firstName": "Kyle",
+          "hasProfilePic": true,
+          "id": 407109175,
+          "pictureUrl": "https://a0.muscache.com/im/pictures/user/c20d6e6b-4c1b-4f3f-882a-124dfc977b71.jpg?aki_policy=profile_x_medium",
+          "smartName": "Kyle",
+          "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/c20d6e6b-4c1b-4f3f-882a-124dfc977b71.jpg?aki_policy=profile_small"
+        },
+        "authorId": 407109175,
+        "canBeEdited": false,
+        "comments": "Excellent price, cute home, love the peach tree out front.  The neighborhood has a lot of old buildings with some issues, but the location is close to everything I needed and I never felt unsafe.  Kevin is a good host and I've enjoyed my stay enough to extend it.  Would come again if I had more work nearby!",
+        "createdAt": "2021-07-20T20:36:26Z",
+        "id": 410845382168505800,
+        "idStr": "410845382168505815",
+        "listingId": 921168,
+        "recipientId": 4952065,
+        "collectionTag": null,
+        "listing": {
+          "id": 921168,
+          "listingIdStr": "921168",
+          "name": "Urban Homestead Boarding House: Green Room"
+        },
+        "rating": 5,
+        "recipient": {
+          "firstName": "Kevin",
+          "hasProfilePic": true,
+          "id": 4952065,
+          "pictureUrl": "https://a0.muscache.com/im/users/4952065/profile_pic/1364578195/original.jpg?aki_policy=profile_x_medium",
+          "smartName": "Kevin",
+          "thumbnailUrl": "https://a0.muscache.com/im/users/4952065/profile_pic/1364578195/original.jpg?aki_policy=profile_small"
+        },
+        "response": "",
+        "role": "guest",
+        "language": "en",
+        "userFlag": null
+      },
+      {
+        "author": {
+          "firstName": "Emily",
+          "hasProfilePic": true,
+          "id": 396212098,
+          "pictureUrl": "https://a0.muscache.com/im/pictures/user/85bb7215-7fe9-4fb2-8512-e93509f5c5e5.jpg?aki_policy=profile_x_medium",
+          "smartName": "Emily",
+          "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/85bb7215-7fe9-4fb2-8512-e93509f5c5e5.jpg?aki_policy=profile_small"
+        },
+        "authorId": 396212098,
+        "canBeEdited": false,
+        "comments": "The photos provided do the room justice, it's simple, but clean and fairly comfortable. The neighborhood is definitely questionable and there is a lot of noise in the neighborhood during the night, however nothing happened that I saw during my stay. It's definitely way more budget friendly than most places in Little Rock, but you get what you pay for.",
+        "createdAt": "2021-06-13T13:45:02Z",
+        "id": 769712042,
+        "idStr": "769712042",
+        "listingId": 921168,
+        "recipientId": 4952065,
+        "collectionTag": null,
+        "listing": {
+          "id": 921168,
+          "listingIdStr": "921168",
+          "name": "Urban Homestead Boarding House: Green Room"
+        },
+        "rating": 3,
+        "recipient": {
+          "firstName": "Kevin",
+          "hasProfilePic": true,
+          "id": 4952065,
+          "pictureUrl": "https://a0.muscache.com/im/users/4952065/profile_pic/1364578195/original.jpg?aki_policy=profile_x_medium",
+          "smartName": "Kevin",
+          "thumbnailUrl": "https://a0.muscache.com/im/users/4952065/profile_pic/1364578195/original.jpg?aki_policy=profile_small"
+        },
+        "response": "",
+        "role": "guest",
+        "language": "en",
+        "userFlag": null
+      },
+      {
+        "author": {
+          "firstName": "Pamela",
+          "hasProfilePic": true,
+          "id": 298640452,
+          "pictureUrl": "https://a0.muscache.com/im/pictures/user/4837e61c-2cf2-465d-b162-fa098eae71e0.jpg?aki_policy=profile_x_medium",
+          "smartName": "Pamela",
+          "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/4837e61c-2cf2-465d-b162-fa098eae71e0.jpg?aki_policy=profile_small"
+        },
+        "authorId": 298640452,
+        "canBeEdited": false,
+        "comments": "Good stay.",
+        "createdAt": "2021-05-15T21:24:15Z",
+        "id": 758462819,
+        "idStr": "758462819",
+        "listingId": 921168,
+        "recipientId": 4952065,
+        "collectionTag": null,
+        "listing": {
+          "id": 921168,
+          "listingIdStr": "921168",
+          "name": "Urban Homestead Boarding House: Green Room"
+        },
+        "rating": 4,
+        "recipient": {
+          "firstName": "Kevin",
+          "hasProfilePic": true,
+          "id": 4952065,
+          "pictureUrl": "https://a0.muscache.com/im/users/4952065/profile_pic/1364578195/original.jpg?aki_policy=profile_x_medium",
+          "smartName": "Kevin",
+          "thumbnailUrl": "https://a0.muscache.com/im/users/4952065/profile_pic/1364578195/original.jpg?aki_policy=profile_small"
+        },
+        "response": "",
+        "role": "guest",
+        "language": "en",
+        "userFlag": null
+      },
+      {
+        "author": {
+          "firstName": "Joshua",
+          "hasProfilePic": true,
+          "id": 216610169,
+          "pictureUrl": "https://a0.muscache.com/im/pictures/user/f5be2307-b359-4cec-b5c2-b80ed54bd769.jpg?aki_policy=profile_x_medium",
+          "smartName": "Joshua",
+          "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/f5be2307-b359-4cec-b5c2-b80ed54bd769.jpg?aki_policy=profile_small"
+        },
+        "authorId": 216610169,
+        "canBeEdited": false,
+        "comments": "Absolutely love this place, just signed on for a second month. I stayed in the Green Room for the first month and it was very comfortable. Honestly the description sells the place a bit short... the house is so charming, it’s an old building but everything stays perfectly clean and in working order. Barely saw the other residents, I felt like I had the place to myself most of the time. Love how well the window AC unit works in the bedroom. Couldn’t have been happier with my stay.",
+        "createdAt": "2020-09-26T20:16:33Z",
+        "id": 668138803,
+        "idStr": "668138803",
+        "listingId": 921168,
+        "recipientId": 4952065,
+        "collectionTag": null,
+        "listing": {
+          "id": 921168,
+          "listingIdStr": "921168",
+          "name": "Urban Homestead Boarding House: Green Room"
+        },
+        "rating": 5,
+        "recipient": {
+          "firstName": "Kevin",
+          "hasProfilePic": true,
+          "id": 4952065,
+          "pictureUrl": "https://a0.muscache.com/im/users/4952065/profile_pic/1364578195/original.jpg?aki_policy=profile_x_medium",
+          "smartName": "Kevin",
+          "thumbnailUrl": "https://a0.muscache.com/im/users/4952065/profile_pic/1364578195/original.jpg?aki_policy=profile_small"
+        },
+        "response": "",
+        "role": "guest",
+        "language": "en",
+        "userFlag": null
+      },
+      {
+        "author": {
+          "firstName": "Ian",
+          "hasProfilePic": true,
+          "id": 205314986,
+          "pictureUrl": "https://a0.muscache.com/im/pictures/user/d44cce5b-7e82-4cbd-af94-8030e084b4ea.jpg?aki_policy=profile_x_medium",
+          "smartName": "Ian",
+          "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/d44cce5b-7e82-4cbd-af94-8030e084b4ea.jpg?aki_policy=profile_small"
+        },
+        "authorId": 205314986,
+        "canBeEdited": false,
+        "comments": "This was in a convenient location for me to navigate to downtown or mid city Little Rock. The house is spacious as well as the room. I liked the street parking because I was able to come and go freely without any no parking signs or trouble. I spoke to a couple neighbors too and they were friendly. Went for a walk a number of times as well and enjoy the centennial park and battery street neighborhood that was near by. It was great to have an AC in the room to myself which helped me sleep better. Good communication from the host  too.",
+        "createdAt": "2020-07-31T21:11:01Z",
+        "id": 644816931,
+        "idStr": "644816931",
+        "listingId": 921168,
+        "recipientId": 4952065,
+        "collectionTag": null,
+        "listing": {
+          "id": 921168,
+          "listingIdStr": "921168",
+          "name": "Urban Homestead Boarding House: Green Room"
+        },
+        "rating": 5,
+        "recipient": {
+          "firstName": "Kevin",
+          "hasProfilePic": true,
+          "id": 4952065,
+          "pictureUrl": "https://a0.muscache.com/im/users/4952065/profile_pic/1364578195/original.jpg?aki_policy=profile_x_medium",
+          "smartName": "Kevin",
+          "thumbnailUrl": "https://a0.muscache.com/im/users/4952065/profile_pic/1364578195/original.jpg?aki_policy=profile_small"
+        },
+        "response": "",
+        "role": "guest",
+        "language": "en",
+        "userFlag": null
+      },
+      {
+        "author": {
+          "firstName": "Jamia",
+          "hasProfilePic": true,
+          "id": 195083108,
+          "pictureUrl": "https://a0.muscache.com/im/pictures/user/68c7c97f-fcfc-428c-a69f-e7aa697e848f.jpg?aki_policy=profile_x_medium",
+          "smartName": "Jamia",
+          "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/68c7c97f-fcfc-428c-a69f-e7aa697e848f.jpg?aki_policy=profile_small"
+        },
+        "authorId": 195083108,
+        "canBeEdited": false,
+        "comments": "Pretty good stay. Not over the top but it’s exactly what you expect which is good.",
+        "createdAt": "2020-06-10T19:04:22Z",
+        "id": 628772909,
+        "idStr": "628772909",
+        "listingId": 921168,
+        "recipientId": 4952065,
+        "collectionTag": null,
+        "listing": {
+          "id": 921168,
+          "listingIdStr": "921168",
+          "name": "Urban Homestead Boarding House: Green Room"
+        },
+        "rating": 4,
+        "recipient": {
+          "firstName": "Kevin",
+          "hasProfilePic": true,
+          "id": 4952065,
+          "pictureUrl": "https://a0.muscache.com/im/users/4952065/profile_pic/1364578195/original.jpg?aki_policy=profile_x_medium",
+          "smartName": "Kevin",
+          "thumbnailUrl": "https://a0.muscache.com/im/users/4952065/profile_pic/1364578195/original.jpg?aki_policy=profile_small"
+        },
+        "response": "",
+        "role": "guest",
+        "language": "en",
+        "userFlag": null
+      },
+      {
+        "author": {
+          "firstName": "Khanh",
+          "hasProfilePic": true,
+          "id": 37799984,
+          "pictureUrl": "https://a0.muscache.com/im/pictures/user/eadd3289-8f64-4b11-946d-c223efb5de90.jpg?aki_policy=profile_x_medium",
+          "smartName": "Khanh",
+          "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/eadd3289-8f64-4b11-946d-c223efb5de90.jpg?aki_policy=profile_small"
+        },
+        "authorId": 37799984,
+        "canBeEdited": false,
+        "comments": "Great place for the price and location. Booking the place for the whole month make it much more cheaper.",
+        "createdAt": "2020-01-31T20:57:49Z",
+        "id": 599997350,
+        "idStr": "599997350",
+        "listingId": 921168,
+        "recipientId": 4952065,
+        "collectionTag": null,
+        "listing": {
+          "id": 921168,
+          "listingIdStr": "921168",
+          "name": "Urban Homestead Boarding House: Green Room"
+        },
+        "rating": 5,
+        "recipient": {
+          "firstName": "Kevin",
+          "hasProfilePic": true,
+          "id": 4952065,
+          "pictureUrl": "https://a0.muscache.com/im/users/4952065/profile_pic/1364578195/original.jpg?aki_policy=profile_x_medium",
+          "smartName": "Kevin",
+          "thumbnailUrl": "https://a0.muscache.com/im/users/4952065/profile_pic/1364578195/original.jpg?aki_policy=profile_small"
+        },
+        "response": "",
+        "role": "guest",
+        "language": "en",
+        "userFlag": null
+      },
+      {
+        "author": {
+          "firstName": "Samuel",
+          "hasProfilePic": true,
+          "id": 302165860,
+          "pictureUrl": "https://a0.muscache.com/im/pictures/user/4f03178e-391c-4a58-9924-73cc6cfecb58.jpg?aki_policy=profile_x_medium",
+          "smartName": "Samuel",
+          "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/4f03178e-391c-4a58-9924-73cc6cfecb58.jpg?aki_policy=profile_small"
+        },
+        "authorId": 302165860,
+        "canBeEdited": false,
+        "comments": "The green room was larger than expected. Accommodations were wonderful.",
+        "createdAt": "2019-11-20T22:49:01Z",
+        "id": 566830061,
+        "idStr": "566830061",
+        "listingId": 921168,
+        "recipientId": 4952065,
+        "collectionTag": null,
+        "listing": {
+          "id": 921168,
+          "listingIdStr": "921168",
+          "name": "Urban Homestead Boarding House: Green Room"
+        },
+        "rating": 5,
+        "recipient": {
+          "firstName": "Kevin",
+          "hasProfilePic": true,
+          "id": 4952065,
+          "pictureUrl": "https://a0.muscache.com/im/users/4952065/profile_pic/1364578195/original.jpg?aki_policy=profile_x_medium",
+          "smartName": "Kevin",
+          "thumbnailUrl": "https://a0.muscache.com/im/users/4952065/profile_pic/1364578195/original.jpg?aki_policy=profile_small"
+        },
+        "response": "",
+        "role": "guest",
+        "language": "en",
+        "userFlag": null
+      },
+      {
+        "author": {
+          "firstName": "Dave",
+          "hasProfilePic": true,
+          "id": 57418427,
+          "pictureUrl": "https://a0.muscache.com/im/pictures/user/2779cf09-4776-4ae5-9e15-ff9d43c1bf44.jpg?aki_policy=profile_x_medium",
+          "smartName": "Dave",
+          "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/2779cf09-4776-4ae5-9e15-ff9d43c1bf44.jpg?aki_policy=profile_small"
+        },
+        "authorId": 57418427,
+        "canBeEdited": false,
+        "comments": "It’s an affordable place to stay.  The neighborhood is quiet and fairly friendly. I ended up extending my stay twice because I liked it so much.",
+        "createdAt": "2019-08-03T19:41:29Z",
+        "id": 501394535,
+        "idStr": "501394535",
+        "listingId": 921168,
+        "recipientId": 4952065,
+        "collectionTag": null,
+        "listing": {
+          "id": 921168,
+          "listingIdStr": "921168",
+          "name": "Urban Homestead Boarding House: Green Room"
+        },
+        "rating": 4,
+        "recipient": {
+          "firstName": "Kevin",
+          "hasProfilePic": true,
+          "id": 4952065,
+          "pictureUrl": "https://a0.muscache.com/im/users/4952065/profile_pic/1364578195/original.jpg?aki_policy=profile_x_medium",
+          "smartName": "Kevin",
+          "thumbnailUrl": "https://a0.muscache.com/im/users/4952065/profile_pic/1364578195/original.jpg?aki_policy=profile_small"
+        },
+        "response": "",
+        "role": "guest",
+        "language": "en",
+        "userFlag": null
+      }
+    ],
+    "pricing": {
+      "rate": {
+        "amount": 15,
+        "amount_formatted": "$15",
+        "currency": "USD",
+        "is_micros_accuracy": false
+      },
+      "rate_type": "nightly",
+      "rate_with_service_fee": {
+        "amount": 15,
+        "amount_formatted": "$15",
+        "currency": "USD",
+        "is_micros_accuracy": false
+      }
+    },
+    "calendar": [
+      {
+        "available": false,
+        "date": "2022-02-27"
+      },
+      {
+        "available": false,
+        "date": "2022-02-28"
+      },
+      {
+        "available": false,
+        "date": "2022-03-01"
+      },
+      {
+        "available": false,
+        "date": "2022-03-02"
+      },
+      {
+        "available": false,
+        "date": "2022-03-03"
+      },
+      {
+        "available": false,
+        "date": "2022-03-04"
+      },
+      {
+        "available": false,
+        "date": "2022-03-05"
+      },
+      {
+        "available": false,
+        "date": "2022-03-06"
+      },
+      {
+        "available": false,
+        "date": "2022-03-07"
+      },
+      {
+        "available": false,
+        "date": "2022-03-08"
+      },
+      {
+        "available": false,
+        "date": "2022-03-09"
+      },
+      {
+        "available": false,
+        "date": "2022-03-10"
+      },
+      {
+        "available": false,
+        "date": "2022-03-11"
+      },
+      {
+        "available": false,
+        "date": "2022-03-12"
+      },
+      {
+        "available": false,
+        "date": "2022-03-13"
+      },
+      {
+        "available": false,
+        "date": "2022-03-14"
+      },
+      {
+        "available": false,
+        "date": "2022-03-15"
+      },
+      {
+        "available": false,
+        "date": "2022-03-16"
+      },
+      {
+        "available": false,
+        "date": "2022-03-17"
+      },
+      {
+        "available": false,
+        "date": "2022-03-18"
+      },
+      {
+        "available": false,
+        "date": "2022-03-19"
+      },
+      {
+        "available": false,
+        "date": "2022-03-20"
+      },
+      {
+        "available": false,
+        "date": "2022-03-21"
+      },
+      {
+        "available": false,
+        "date": "2022-03-22"
+      },
+      {
+        "available": false,
+        "date": "2022-03-23"
+      },
+      {
+        "available": false,
+        "date": "2022-03-24"
+      },
+      {
+        "available": false,
+        "date": "2022-03-25"
+      },
+      {
+        "available": false,
+        "date": "2022-03-26"
+      },
+      {
+        "available": false,
+        "date": "2022-03-27"
+      },
+      {
+        "available": false,
+        "date": "2022-03-28"
+      },
+      {
+        "available": false,
+        "date": "2022-03-29"
+      },
+      {
+        "available": false,
+        "date": "2022-03-30"
+      },
+      {
+        "available": true,
+        "date": "2022-03-31"
+      },
+      {
+        "available": false,
+        "date": "2022-04-01"
+      },
+      {
+        "available": false,
+        "date": "2022-04-02"
+      }
+    ],
+    "listingAmenities": [
+      {
+        "description": "Available throughout the listing",
+        "id": 4,
+        "isPresent": true,
+        "name": "Wifi"
+      },
+      {
+        "description": "Space where guests can cook their own meals",
+        "id": 8,
+        "isPresent": true,
+        "name": "Kitchen"
+      },
+      {
+        "description": "",
+        "id": 9,
+        "isPresent": true,
+        "name": "Free parking on premises"
+      },
+      {
+        "description": "",
+        "id": 45,
+        "isPresent": false,
+        "name": "Hair dryer"
+      },
+      {
+        "description": "",
+        "id": 1,
+        "isPresent": false,
+        "name": "TV"
+      },
+      {
+        "description": "",
+        "id": 41,
+        "isPresent": false,
+        "name": "Shampoo"
+      },
+      {
+        "description": "Towels, bed sheets, soap, and toilet paper",
+        "id": 40,
+        "isPresent": true,
+        "name": "Essentials"
+      },
+      {
+        "description": "",
+        "id": 34,
+        "isPresent": true,
+        "name": "Dryer"
+      },
+      {
+        "description": "",
+        "id": 33,
+        "isPresent": true,
+        "name": "Washer"
+      },
+      {
+        "description": "",
+        "id": 30,
+        "isPresent": true,
+        "name": "Heating"
+      },
+      {
+        "description": "",
+        "id": 5,
+        "isPresent": true,
+        "name": "Air conditioning"
+      },
+      {
+        "description": "",
+        "id": 77,
+        "isPresent": true,
+        "name": "Hot water"
+      },
+      {
+        "description": "",
+        "id": 85,
+        "isPresent": true,
+        "name": "Bed linens"
+      },
+      {
+        "description": "The host hasn't reported a carbon monoxide detector on the property.",
+        "id": 36,
+        "isPresent": false,
+        "name": "Carbon monoxide alarm"
+      },
+      {
+        "description": "",
+        "id": 37,
+        "isPresent": true,
+        "name": "First aid kit"
+      },
+      {
+        "description": "",
+        "id": 35,
+        "isPresent": true,
+        "name": "Smoke alarm"
+      },
+      {
+        "description": "",
+        "id": 90,
+        "isPresent": true,
+        "name": "Coffee maker"
+      },
+      {
+        "description": "Bowls, chopsticks, plates, cups, etc.",
+        "id": 93,
+        "isPresent": true,
+        "name": "Dishes and silverware"
+      },
+      {
+        "description": "",
+        "id": 91,
+        "isPresent": true,
+        "name": "Refrigerator"
+      },
+      {
+        "description": "",
+        "id": 57,
+        "isPresent": false,
+        "name": "Private entrance"
+      },
+      {
+        "description": "",
+        "id": 23,
+        "isPresent": true,
+        "name": "Free street parking"
+      }
+    ],
+    "rootAmenitySections": [
+      {
+        "id": "available_amenities",
+        "title": "Amenities",
+        "subtitle": "",
+        "amenityIds": [
+          4,
+          8,
+          9,
+          40
+        ]
+      },
+      {
+        "id": "unavailable_safety_amenities",
+        "title": "Amenities",
+        "subtitle": "The host hasn't reported a carbon monoxide detector on the property.",
+        "amenityIds": [
+          36
+        ]
+      }
+    ],
+    "seeAllAmenitySections": [
+      {
+        "id": "pdp_m2_5_bathroom",
+        "title": "Bathroom",
+        "subtitle": "",
+        "amenityIds": [
+          77
+        ]
+      },
+      {
+        "id": "pdp_m2_5_bedroom_laundry",
+        "title": "Bedroom and laundry",
+        "subtitle": "",
+        "amenityIds": [
+          40,
+          34,
+          33,
+          85
+        ]
+      },
+      {
+        "id": "pdp_m2_5_heating_cooling",
+        "title": "Heating and cooling",
+        "subtitle": "",
+        "amenityIds": [
+          30,
+          5
+        ]
+      },
+      {
+        "id": "pdp_m2_5_home_safety",
+        "title": "Home safety",
+        "subtitle": "",
+        "amenityIds": [
+          37,
+          35
+        ]
+      },
+      {
+        "id": "pdp_m2_5_internet_office",
+        "title": "Internet and office",
+        "subtitle": "",
+        "amenityIds": [
+          4
+        ]
+      },
+      {
+        "id": "pdp_m2_5_kitchen_dining",
+        "title": "Kitchen and dining",
+        "subtitle": "",
+        "amenityIds": [
+          8,
+          90,
+          93,
+          91
+        ]
+      },
+      {
+        "id": "pdp_m2_5_parking_facilities",
+        "title": "Parking and facilities",
+        "subtitle": "",
+        "amenityIds": [
+          9,
+          23
+        ]
+      },
+      {
+        "id": "pdp_unavailable",
+        "title": "Not included",
+        "subtitle": "",
+        "amenityIds": [
+          45,
+          1,
+          41,
+          36,
+          57
+        ]
+      }
+    ],
+    "bathroomLabel": "1 shared bath",
+    "bedLabel": "1 bed",
+    "bedroomLabel": "1 bedroom",
+    "hasHouseRules": true,
+    "id": 921168,
+    "isNewListing": false,
+    "listingRooms": [
+      {
+        "beds": [
+          {
+            "id": "2939880/double_bed",
+            "quantity": 1,
+            "type": "double_bed"
+          }
+        ],
+        "id": 2939880,
+        "roomNumber": 1
+      }
+    ],
+    "p3SummaryAddress": "Little Rock, Arkansas, United States",
+    "photos": [
+      {
+        "caption": "Here is a current picture of the evolving facade!",
+        "id": 9097178,
+        "large": "https://a0.muscache.com/im/pictures/96128932/57d082f4_original.jpg?aki_policy=large",
+        "previewEncodedPng": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAADCAIAAADUVFKvAAAAO0lEQVQIHQEwAM//AbPExO3n2DgpLO70/MnQwwFdbl7t2NoQCgoXCwnN6OwBRVM+Av38CwsGAP4B8PcIdYwXRe6DQjcAAAAASUVORK5CYII=",
+        "scrimColor": "#203026",
+        "isProfessional": false,
+        "pictureOrientation": "LANDSCAPE",
+        "aspectRatio": 1.768421052631579
+      },
+      {
+        "caption": "",
+        "id": 1130924488,
+        "large": "https://a0.muscache.com/im/pictures/miso/Hosting-921168/original/2e6d1e54-c612-4298-82cf-6b0b731e1a0c.jpeg?aki_policy=large",
+        "previewEncodedPng": "",
+        "scrimColor": "",
+        "isProfessional": false,
+        "pictureOrientation": "UNDEFINED",
+        "aspectRatio": 0
+      },
+      {
+        "caption": "",
+        "id": 1130924487,
+        "large": "https://a0.muscache.com/im/pictures/miso/Hosting-921168/original/22b69b04-0c83-4946-8ba8-d9d092bc2227.jpeg?aki_policy=large",
+        "previewEncodedPng": "",
+        "scrimColor": "",
+        "isProfessional": false,
+        "pictureOrientation": "UNDEFINED",
+        "aspectRatio": 0
+      },
+      {
+        "caption": "",
+        "id": 1130924494,
+        "large": "https://a0.muscache.com/im/pictures/miso/Hosting-921168/original/55bf722f-c27a-4104-b582-1a99ab114e5c.jpeg?aki_policy=large",
+        "previewEncodedPng": "",
+        "scrimColor": "",
+        "isProfessional": false,
+        "pictureOrientation": "UNDEFINED",
+        "aspectRatio": 0
+      },
+      {
+        "caption": "",
+        "id": 1130924493,
+        "large": "https://a0.muscache.com/im/pictures/miso/Hosting-921168/original/19ee0a6c-7030-45b9-8400-eb8bb08736f3.jpeg?aki_policy=large",
+        "previewEncodedPng": "",
+        "scrimColor": "",
+        "isProfessional": false,
+        "pictureOrientation": "UNDEFINED",
+        "aspectRatio": 0
+      },
+      {
+        "caption": "",
+        "id": 1130924489,
+        "large": "https://a0.muscache.com/im/pictures/miso/Hosting-921168/original/2307d4fc-2a6c-417c-94f0-05f1b64a9f17.jpeg?aki_policy=large",
+        "previewEncodedPng": "",
+        "scrimColor": "",
+        "isProfessional": false,
+        "pictureOrientation": "UNDEFINED",
+        "aspectRatio": 0
+      },
+      {
+        "caption": "",
+        "id": 1130924483,
+        "large": "https://a0.muscache.com/im/pictures/miso/Hosting-921168/original/272941d4-d57c-4b0e-946e-304a81edd593.jpeg?aki_policy=large",
+        "previewEncodedPng": "",
+        "scrimColor": "",
+        "isProfessional": false,
+        "pictureOrientation": "UNDEFINED",
+        "aspectRatio": 0
+      },
+      {
+        "caption": "",
+        "id": 1130925007,
+        "large": "https://a0.muscache.com/im/pictures/miso/Hosting-921168/original/4de91b80-90a5-4e61-b103-beaadaed4cfe.jpeg?aki_policy=large",
+        "previewEncodedPng": "",
+        "scrimColor": "",
+        "isProfessional": false,
+        "pictureOrientation": "UNDEFINED",
+        "aspectRatio": 0
+      },
+      {
+        "caption": "",
+        "id": 1130924485,
+        "large": "https://a0.muscache.com/im/pictures/miso/Hosting-921168/original/96caf252-7978-436e-a183-6595a442f6ad.jpeg?aki_policy=large",
+        "previewEncodedPng": "",
+        "scrimColor": "",
+        "isProfessional": false,
+        "pictureOrientation": "UNDEFINED",
+        "aspectRatio": 0
+      }
+    ],
+    "primaryHost": {
+      "about": "I grew up in Baton Rouge, LA and have traveled all over the country flying my balloon and working in various aspects of landscaping and agriculture before embarking on this home-fix-up endeavor.  \n\nI worked hard refurbishing these two houses in little rock, before transitioning to the next phase of my life managing and building on forested mountain land.\n\nI have graciously been able to keep a steady income by continuing to run a boarding house as a somewhat absentee landlord!  \n\nI try to make sure there is a good value in occupying my space and that it will serve you as it has me!",
+      "badges": [
+        {
+          "count": 174,
+          "id": "reviews",
+          "label": "174 Reviews",
+          "link": "/users/show/4952065#reviews"
+        },
+        {
+          "id": "identity-verified",
+          "label": "Identity verified"
+        }
+      ],
+      "firstName": "Kevin",
+      "id": 4952065,
+      "isSuperhost": false,
+      "memberSinceFullStr": "Joined in February 2013",
+      "name": "Kevin",
+      "languages": [],
+      "pictureUrl": "https://a0.muscache.com/im/users/4952065/profile_pic/1364578195/original.jpg?aki_policy=profile_x_medium",
+      "responseRateWithoutNa": "90%",
+      "responseTimeWithoutNa": "within a day",
+      "hasInclusionBadge": false,
+      "pictureLargeUrl": "https://a0.muscache.com/im/users/4952065/profile_pic/1364578195/original.jpg?aki_policy=profile_large",
+      "hostIntroTags": [
+        "174 reviews",
+        "Verified"
+      ],
+      "hostUrl": "https://www.airbnb.com.vn/users/show/4952065",
+      "listingsCount": 3,
+      "totalListingsCount": 5
+    },
+    "roomTypeCategory": "private_room",
+    "sectionedDescription": {
+      "access": "There is a large outdoor permaculturally oriented garden space.  There Is A State Of The Art Washing Machine And An Old Upright piano.",
+      "authorType": "human",
+      "description": "This Apartment on the front side of my duplex has three pvt bedrooms.  I rent rooms to people by the month, but am willing to entertain shorter term stays.  The house is improved, but not re-modeled.  It is an old home that has been recently brought up to respectable, but rustic living standards.  I believe that the cost + the maturing fruit trees and gardens on site make it a nice place to live in Little Rock.  Occupants should look forward to sharing common space with the longer term tenants!\n\nIn our historic, clean, but not freshly re-modeled home, you will have your own room with lots of windows, a good heater and/or window unit, and a full (shared)bathroom down the stairs.  Though recently acquired, this 1/2 acre of urban land is being steered towards a food forest, complete with fruit trees and quite a bit of vegetable gardening. \n\nYour bed is aFull-Sized Mattress and Box Spring that is firm yet comfortable.\n\nThere is a kitchen with some utensils that you will have access to.\n\nNothing fancy here, but basic, affordable, friendly accommodations just two blocks from the infamous Central High School!  We are less than 2 miles from the center of downtown, and less than 1 mile from the highway, so you will not be far away from much.\n\nWe are happy to host you for a short time and are open to longer term arrangements.  Right now we are specifically interested in month long or longer stays.\n\nThere is a large outdoor permaculturally oriented garden space.  There Is A State Of The Art Washing Machine And An Old Upright piano.\n\nWe love how close to downtown and the highway our neighborhood is.  We love the character of the old homes, wide streets, and old trees!  The empty lots and homes while a little bit sad are also full of possibility!\n\nWe are a block off of a busline that runs between ualr and downtown.  Pretty easy to get to and from the airport.\n\nHot Air Balloon Rides are not free, but a great deal so don't hesitate to let us plan you one!",
+      "houseRules": "We have a friendly dog that lives outside.  No animals allowed in the house! \n\n We would like to know your arrival time as soon as you know it.  Should be able to accommodate almost anytime with enough notice.  We tend to prefer check-ins after dark!",
+      "locale": "en",
+      "localizedLanguageName": "English",
+      "name": "Urban Homestead Boarding House: Green Room",
+      "neighborhoodOverview": "We love how close to downtown and the highway our neighborhood is.  We love the character of the old homes, wide streets, and old trees!  The empty lots and homes while a little bit sad are also full of possibility!",
+      "notes": "Hot Air Balloon Rides are not free, but a great deal so don't hesitate to let us plan you one!",
+      "space": "In our historic, clean, but not freshly re-modeled home, you will have your own room with lots of windows, a good heater and/or window unit, and a full (shared)bathroom down the stairs.  Though recently acquired, this 1/2 acre of urban land is being steered towards a food forest, complete with fruit trees and quite a bit of vegetable gardening. \n\nYour bed is aFull-Sized Mattress and Box Spring that is firm yet comfortable.\n\nThere is a kitchen with some utensils that you will have access to.\n\nNothing fancy here, but basic, affordable, friendly accommodations just two blocks from the infamous Central High School!  We are less than 2 miles from the center of downtown, and less than 1 mile from the highway, so you will not be far away from much.\n\nWe are happy to host you for a short time and are open to longer term arrangements.  Right now we are specifically interested in month long or longer stays.",
+      "summary": "This Apartment on the front side of my duplex has three pvt bedrooms.  I rent rooms to people by the month, but am willing to entertain shorter term stays.  The house is improved, but not re-modeled.  It is an old home that has been recently brought up to respectable, but rustic living standards.  I believe that the cost + the maturing fruit trees and gardens on site make it a nice place to live in Little Rock.  Occupants should look forward to sharing common space with the longer term tenants!",
+      "transit": "We are a block off of a busline that runs between ualr and downtown.  Pretty easy to get to and from the airport."
+    },
+    "tierId": 0,
+    "guestControls": {
+      "allowsChildren": false,
+      "allowsEvents": false,
+      "allowsInfants": false,
+      "allowsPets": false,
+      "allowsSmoking": false,
+      "personCapacity": 2,
+      "structuredHouseRules": [
+        "Check-in is anytime after 1PM and check out by 11AM"
+      ],
+      "structuredHouseRulesWithTips": [
+        {
+          "key": "check_in_time_and_check_out_time",
+          "text": "Check-in is anytime after 1PM and check out by 11AM",
+          "airmojiKey": "accomodation_keys"
+        }
+      ],
+      "allowsNonChinaUsers": true
+    },
+    "hasSpecialOffer": false,
+    "maxNights": 365,
+    "minNights": 9,
+    "priceDetails": [
+      {
+        "label": "Extra people",
+        "value": "$5 per night after the first guest",
+        "attributeType": "EXTRA_PEOPLE"
+      }
+    ],
+    "hasWeWorkLocation": false,
+    "isBusinessTravelReady": false,
+    "additionalHosts": [],
+    "isHostedBySuperhost": false,
+    "hometourRooms": [
+      {
+        "details": [],
+        "highlightsHometour": [
+          "1 double bed"
+        ],
+        "highlightsPreview": [],
+        "isShared": true,
+        "id": 2939880,
+        "name": "",
+        "nameWithType": "Bedroom 1",
+        "photos": [],
+        "roomTypeId": 1,
+        "icons": [
+          {
+            "type": "double_bed",
+            "url": ""
+          }
+        ]
+      }
+    ],
+    "hometourSections": [],
+    "descriptionLocale": "en",
+    "initialDescriptionAuthorType": "human",
+    "localizedCheckInTimeWindow": "After 1:00 PM",
+    "localizedCheckOutTime": "11:00 AM",
+    "city": "Little Rock",
+    "country": "United States",
+    "countryCode": "US",
+    "hasHostGuidebook": false,
+    "hasLocalAttractions": false,
+    "neighborhoodCommunityTags": [],
+    "state": "AR",
+    "paidGrowthRemarketingListingIds": [],
+    "hasCommercialHostInfo": false,
+    "reviewDetailsInterface": {
+      "reviewCount": 121,
+      "reviewSummary": [
+        {
+          "value": 9,
+          "label": "Accuracy",
+          "localizedRating": "4.5",
+          "percentage": 0.8960000000000001
+        },
+        {
+          "value": 9,
+          "label": "Communication",
+          "localizedRating": "4.7",
+          "percentage": 0.93
+        },
+        {
+          "value": 8,
+          "label": "Cleanliness",
+          "localizedRating": "4.1",
+          "percentage": 0.82
+        },
+        {
+          "value": 8,
+          "label": "Location",
+          "localizedRating": "3.8",
+          "percentage": 0.758
+        },
+        {
+          "value": 9,
+          "label": "Check-in",
+          "localizedRating": "4.7",
+          "percentage": 0.9400000000000001
+        },
+        {
+          "value": 9,
+          "label": "Value",
+          "localizedRating": "4.7",
+          "percentage": 0.9380000000000001
+        }
+      ]
+    },
+    "reviewsOrder": "language_country",
+    "hostQuote": "",
+    "hostSignatureFont": {
+      "url": "https://a0.muscache.com/airbnb/static/temp-fonts/HandsomePro-Normal.otf"
+    },
+    "nearbyAirportDistanceDescriptions": [],
+    "propertyTypeInCity": "",
+    "renderTierId": 0,
+    "isHotel": false,
+    "showReviewTag": false,
+    "isRepresentativeInventory": false,
+    "localizedCity": "Little Rock",
+    "highlights": [
+      {
+        "type": "LISTING_ENHANCED_CLEANING",
+        "message": "This Host committed to Airbnb's 5-step enhanced cleaning process.",
+        "headline": "Enhanced Clean",
+        "position": "0"
+      }
+    ],
+    "highlightsImpressionId": "3e1a1fd5-f0d1-a312-8574-29d543ea4c68",
+    "categorizedPreviewAmenities": [
+      {
+        "category": "Standard",
+        "amenities": "Wifi, Kitchen, Essentials, Dryer, Washer, and 8 more"
+      },
+      {
+        "category": "Other highlights",
+        "amenities": "Free parking on premises, First aid kit, Free street parking"
+      }
+    ],
+    "pointOfInterests": [],
+    "chinaPointsOfInterestMatcha": {},
+    "pageViewType": "DEFAULT",
+    "previewTags": [],
+    "seeAllHometourSections": [],
+    "educationModules": {},
+    "enableHighlightsVoting": false,
+    "listingExpectations": [
+      {
+        "title": "Pet(s) live on property",
+        "type": "has_pets",
+        "airmojiKey": "house_rules_property_pet"
+      }
+    ],
+    "localizedListingExpectations": [
+      {
+        "title": "Pet(s) live on property",
+        "type": "has_pets",
+        "airmojiKey": "house_rules_property_pet"
+      }
+    ],
+    "heroModule": {
+      "categorizedPhotos": []
+    },
+    "reviewsModule": {
+      "localizedOverallRating": "4.38",
+      "appreciationTags": []
+    },
+    "availabilityModule": {},
+    "additionalHouseRules": "We have a friendly dog that lives outside.  No animals allowed in the house! \n\n We would like to know your arrival time as soon as you know it.  Should be able to accommodate almost anytime with enough notice.  We tend to prefer check-ins after dark!\n\n",
+    "sortedReviews": [],
+    "documentDisplayPictures": [],
+    "sections": [],
+    "metadata": {},
+    "p3ImpressionId": "3e1a1fd5-f0d1-a312-8574-29d543ea4c68",
+    "idStr": "921168",
+    "paidGrowthRemarketingListingIdsStr": []
+  }

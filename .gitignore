@@ -3,8 +3,11 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Specific Files
 Bentonville_all.json
 HotSprings_all.json
+LittleRock_all.json
+
 # *.json
 # C extensions
 *.so
