@@ -1,10 +1,8 @@
 import dash
-import dash_labs as dl
 import dash_bootstrap_components as dbc
+import dash_labs as dl
 
-from app import app
-from app import server
-
+from app import app, server
 
 carousel = dbc.Row([
     dbc.Col([
@@ -79,4 +77,4 @@ app.layout = dbc.Container(
 )
 
 if __name__ == "__main__":
-    app.run_server(debug=True, port=8001)
+    app.run_server(debug=True, port=8099)

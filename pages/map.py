@@ -2,16 +2,22 @@ import dash
 
 dash.register_page(__name__, path='/')
 
+import dash
+import dash_bootstrap_components as dbc
 import folium
 import pandas as pd
+# import html
+# from app import app
 from components.mappings import *
-import dash_bootstrap_components as dbc
-from dash import html
+from dash import dcc, html
 from folium import plugins
+import base64
+from base64 import b64encode
+
+image_filename = '/Users/codyreece/Desktop/Repos/airbnb/air-scrape/Dash/assets/airbnb_logo.png'
+encoded_image = base64.b64encode(open(image_filename, 'rb').read())
 
 
-photoss = df['photos'][0]
-pics = [d['large'] for d in photoss if 'large' in d]
 coords = [36.3729, -94.2086]
 lat = list(df['locationlat'])
 lon = list(df['locationlng'])
@@ -19,20 +25,35 @@ name = list(df['name'])
 url = list(df['url'])
 rate = list(df['reviewsModulelocalizedOverallRating'])
 price = list(df['pricingrateamount'])
+guests = list(df.numberOfGuests)
+rooms = list(df.rooms)
+beds = list(df.beds)
+baths = list(df.baths)
 
 map=folium.Map(location=coords,zoom_start=11)
 fg=folium.FeatureGroup(name="my map")
 
+
+pop = dbc.Row([
+            dbc.Row(html.Center(html.H5( name ))),
+            html.Hr(),
+            dbc.Row(html.Center(html.H5('$'+ str(price) +' /night'))),
+            dbc.Row([html.H5('⭐' + str(rate))]),
+            html.Img(src='data:image/png;base64,{}'.format(encoded_image.decode())),
+            dbc.Row([html.A('Go to Listing', href='site')])
+        ])
+
+
+
+
+
+
+
 def map_listings():
-    for lt, ln, nm, site, rater, prc in zip(lat, lon, name, url, rate, price):
+    for lt, ln, nm, site, rater, prc, gsts, bds, bths, in zip(lat, lon, name, url, rate, price, guests, beds, baths):
         fg.add_child(
             folium.Marker(location=[lt, ln],
-                          popup='<h5> <center> <b>' + nm + "</b> </center> </h5>\
-                            <hr> <div> <b> <center> <h5> $" + str(prc) + "/night </h5> </center> </b> </div>\
-                            <div> <center> <h5> <p>&#11088; "+str(rater)+" </h5> </center> </div>\
-                            <center> <img width='150'src='https://github.com/Reece323/air-scrape/blob/main/assets/airbnb_logo.png?raw=true'/></center>\
-                            <a href=" + site + ">\
-                            <center> <b> <h5> Go to Listing </h5> </b> </center> </a>",
+                          popup=pop,
                           icon=folium.Icon(color='darkblue')
                           )
         )
@@ -45,7 +66,7 @@ def map_listings():
 listing_map = map_listings()
 # listing_map.save('Bentonville.html')
 
-title = html.H3(html.Center('AirBnB Listings Map'),className='my-5')
+listing_title = html.H3(html.Center('AirBnB Listings Map'),className='my-5')
 
 map_view = html.Iframe(
                 id='map',
@@ -58,7 +79,7 @@ map_view = html.Iframe(
 
 layout = html.Div([
             dbc.Row([
-                title
+                listing_title
             ]),
             dbc.Row([
                 dbc.Col([
@@ -67,15 +88,7 @@ layout = html.Div([
                 className='logo2'
                 ),
                 dbc.Col([
-                    html.H4(['More content here']),
-                    html.H4(['More content here']),
-                    html.H4(['More content here']),
-                    html.H4(['More content here']),
-                    html.H4(['More content here']),
-                    html.H4(['More content here']),
-                    html.H4(['More content here']),
-                    html.H4(['More content here']),
-                    html.H4(['More content here']),
+                    html.Img(src='data:image/png;base64,{}'.format(encoded_image.decode()))
                 ],
                 className='my-5'
                 )

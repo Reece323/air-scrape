@@ -1,11 +1,10 @@
 import json
 import re
 import urllib.request
-
 import folium
 import pandas as pd
 
-url = 'https://raw.githubusercontent.com/Reece323/air-scrape/main/Data/Bentonville_all.json'
+url = 'https://raw.githubusercontent.com/Reece323/air-scrape/main/AirBnB/Data/Bentonville_all.json'
 response = urllib.request.urlopen(url)
 Bentonville = json.loads(response.read())
 Bville = pd.json_normalize(Bentonville)
@@ -154,19 +153,34 @@ df = Bville.reindex(columns=[
 ]
 )
 
-df.columns = [re.sub("[ ,\$]", "_", re.sub("[.]", "", c)) for c in df.columns]
-# print(df.columns)
-df
+# 'rooms'
+df['bedroomLabel'] = df['bedroomLabel'].replace('Studio', '0 bedrooms')
+new = df["bathroomLabel"].str.split(" ", n = 1, expand = True)
+# print(new)
+# print(new[0])
+# making separate column from new data frame
+df["rooms"] = new[0]
+# checking 'rooms'
+# checking(df.rooms)
+
+
+new1 = df["bedLabel"].str.split(" ", n = 1, expand = True)
+# making separate column from new data frame
+df["beds"] = new1[0]
+# checking 'rooms'
+# checking(df.beds)
+
+
+new = df["bathroomLabel"].str.split(" ", n = 1, expand = True)
+df['baths'] = new[0].astype(float)
+# checking(df.baths)
 
 df.columns = [re.sub("[ ,\$]", "_", re.sub("[.]", "", c)) for c in df.columns]
-
-
-columns_to_split = ['bedroomLabel', 'bedLabel', 'bathroomLabel']
 
 
 df['geometry'] = [(xy) for xy in zip(df.locationlat, df.locationlng)]
 
-df
+# df
 
 # print(fg)
 colors = [

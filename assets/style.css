@@ -167,12 +167,12 @@ div.Select.has-value.is-pseudo-focused.Select–single>.Select-control .Select-v
   color: white;
 }
 .VirtualizedSelectOption {
-  background-color: rgb(0, 29, 31);
+  background-color:rgba(0, 19, 22, 0.749);
   color: white;
 }
 
 .cards {
-  background-color: rgba(0, 0, 0, 0.629);
+  background-color: rgba(0, 0, 0, 0.392);
   padding-top: 2rem;
   padding-bottom: 2rem;
   padding-left: 1.6rem;
@@ -181,10 +181,11 @@ div.Select.has-value.is-pseudo-focused.Select–single>.Select-control .Select-v
 }
 
 .cards2 {
-  background-color: rgba(0, 0, 0, 0.629);
+  background-color: rgba(0, 0, 0, 0.251);
   /* padding-top: 2rem; */
   /* padding-bottom: 2rem; */
   /* padding-left: 2rem; */
   /* padding-right: 1.6rem; */
   border-radius: 1.5rem;
 }
+

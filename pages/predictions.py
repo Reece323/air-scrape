@@ -5,8 +5,9 @@ dash.register_page(__name__)
 import dash_bootstrap_components as dbc
 import dash_daq as daq
 from components.pred_lists import *
-from dash import Dash, Input, Output, State, callback, dcc, html
-from pages.predictions import *
+from dash import dcc, html
+
+# from pages.predictions import *
 
 
 row1 = html.Div([

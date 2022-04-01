@@ -3,10 +3,7 @@ import dash
 dash.register_page(__name__)
 
 import dash_bootstrap_components as dbc
-import dash_daq as daq
-from dash import Dash, Input, Output, State, callback, dcc, html
-import plotly.express as px
-
+from dash import dcc, html
 
 TEXT_STYLE = {
     'textAlign': 'center',
@@ -128,7 +125,7 @@ content_fourth_row = dbc.Row(
 
 content = html.Div(
     [
-        html.H2('Analytics Dashboard Template', style=TEXT_STYLE),
+        html.H2('Analytics Dashboard', style=TEXT_STYLE),
         html.Hr(),
         content_first_row,
         html.Br(),

@@ -1,6 +1,6 @@
 import dash
-import dash_labs as dl  # pip install dash-labs
 import dash_bootstrap_components as dbc
+import dash_labs as dl  # pip install dash-labs
 
 app = dash.Dash(
     __name__,

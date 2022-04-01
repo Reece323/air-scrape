@@ -9,7 +9,6 @@ numpy
 datetime
 dash
 dash_bootstrap_components
-plotly
-lxml
-beautifulsoup4
-gunicorn
+dash-labs
+dash-daq
+folium
