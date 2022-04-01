@@ -4,3 +4,12 @@ requests
 beautifulsoup4
 selenium
 rich
+pandas
+numpy
+datetime
+dash
+dash_bootstrap_components
+plotly
+lxml
+beautifulsoup4
+gunicorn
