@@ -1,7 +1,8 @@
 import dash
-
+import plotly.express as px
 dash.register_page(__name__)
-
+df = px.data.iris()
+from plotly import graph_objects as go
 import dash_bootstrap_components as dbc
 from dash import dcc, html
 
@@ -90,13 +91,36 @@ content_first_row = dbc.Row([
 content_second_row = dbc.Row(
     [
         dbc.Col(
-            dcc.Graph(id='graph_1'), md=4
+            dcc.Graph(
+                id='graph_1',
+                figure={
+                    # 'data':df,
+                    'layout': go.Layout(
+                        paper_bgcolor='rgba(0,0,0,.6)',
+                        plot_bgcolor='rgba(0,0,0,.8)'
+                        )
+                    }
+                ), md=4
         ),
         dbc.Col(
-            dcc.Graph(id='graph_2'), md=4
+            dcc.Graph(id='graph_2',
+            figure={
+                    # 'data':df,
+                    'layout': go.Layout(
+                        paper_bgcolor='rgba(0,0,0,.6)',
+                        plot_bgcolor='rgba(0,0,0,.8)'
+                        )
+                    }), md=4
         ),
         dbc.Col(
-            dcc.Graph(id='graph_3'), md=4
+            dcc.Graph(id='graph_3',
+            figure={
+                    # 'data':df,
+                    'layout': go.Layout(
+                        paper_bgcolor='rgba(0,0,0,.6)',
+                        plot_bgcolor='rgba(0,0,0,.8)'
+                        )
+                    }), md=4
         )
     ]
 )
@@ -106,7 +130,14 @@ content_second_row = dbc.Row(
 content_third_row = dbc.Row(
     [
         dbc.Col(
-            dcc.Graph(id='graph_4'), md=12,
+            dcc.Graph(id='graph_4',
+            figure={
+                    # 'data':df,
+                    'layout': go.Layout(
+                        paper_bgcolor='rgba(0,0,0,.6)',
+                        plot_bgcolor='rgba(0,0,0,.8)'
+                        )
+                    }), md=12,
         )
     ]
 )
@@ -115,10 +146,23 @@ content_third_row = dbc.Row(
 content_fourth_row = dbc.Row(
     [
         dbc.Col(
-            dcc.Graph(id='graph_5'), md=6
+            dcc.Graph(id='graph_5',figure={
+                    # 'data':df,
+                    'layout': go.Layout(
+                        paper_bgcolor='rgba(0,0,0,.6)',
+                        plot_bgcolor='rgba(0,0,0,.8)'
+                        )
+                    }), md=6
         ),
         dbc.Col(
-            dcc.Graph(id='graph_6'), md=6
+            dcc.Graph(id='graph_6',
+            figure={
+                    # 'data':df,
+                    'layout': go.Layout(
+                        paper_bgcolor='rgba(0,0,0,.6)',
+                        plot_bgcolor='rgba(0,0,0,.8)'
+                        )
+                    }), md=6
         )
     ]
 )
@@ -127,12 +171,13 @@ content = html.Div(
     [
         html.H2('Analytics Dashboard', style=TEXT_STYLE),
         html.Hr(),
+        html.Hr(),
         content_first_row,
-        html.Br(),
+        html.Hr(),
         content_second_row,
-        html.Br(),
+        html.Hr(),
         content_third_row,
-        html.Br(),
+        html.Hr(),
         content_fourth_row
     ],
     style=CONTENT_STYLE,

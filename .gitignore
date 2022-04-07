@@ -5,8 +5,6 @@ __pycache__/
 *.html
 # Specific Files
 # Bentonville_all.json
-HotSprings_all.json
-LittleRock_all.json
 
 # *.json
 # C extensions

@@ -2,6 +2,10 @@ import dash
 import dash_bootstrap_components as dbc
 import dash_labs as dl  # pip install dash-labs
 
+
+
+
+
 app = dash.Dash(
     __name__,
     plugins=[dl.plugins.pages],
