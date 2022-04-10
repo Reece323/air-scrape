@@ -54,18 +54,18 @@ cols = [col for col in Bentonville_json_normalize.columns if col not in ['amenit
 Bentonville_df = Bentonville_json_normalize[cols].join(Bentonville_amenities)
 Bentonville_df.dropna(axis=1, how='all', inplace=True)
 
-Fayetteville = 'https://raw.githubusercontent.com/Reece323/air-scrape/main/AirBnB/Data/Fayetteville.json'
-response = urllib.request.urlopen(Fayetteville)
-Fayetteville = json.loads(response.read())
+# Fayetteville = 'https://raw.githubusercontent.com/Reece323/air-scrape/main/AirBnB/Data/Fayetteville.json'
+# response = urllib.request.urlopen(Fayetteville)
+# Fayetteville = json.loads(response.read())
 
-Fayetteville = pd.json_normalize(Fayetteville)
-Fayetteville_amenities = Bentonville_json_normalize['listingAmenities'].explode().apply(pd.Series)
-Fayetteville_amenities.rename(columns={col:f'amenities_{col}' for col in Fayetteville_amenities.columns}, inplace=True)
+# Fayetteville = pd.json_normalize(Fayetteville)
+# Fayetteville_amenities = Fayetteville['listingAmenities'].explode().apply(pd.Series)
+# Fayetteville_amenities.rename(columns={col:f'amenities_{col}' for col in Fayetteville_amenities.columns}, inplace=True)
 
 
-cols = [col for col in Fayetteville.columns if col not in ['amenities_records']]
-Fayetteville_df = Fayetteville[cols].join(Fayetteville_amenities)
-Fayetteville_df.dropna(axis=1, how='all', inplace=True)
+# cols = [col for col in Fayetteville.columns if col not in ['amenities_records']]
+# Fayetteville_df = Fayetteville[cols].join(Fayetteville_amenities)
+# Fayetteville_df.dropna(axis=1, how='all', inplace=True)
 
 Lowell = 'https://raw.githubusercontent.com/Reece323/air-scrape/main/AirBnB/Data/Lowell.json'
 response = urllib.request.urlopen(Lowell)
@@ -97,10 +97,10 @@ df1 = pd.concat([Springdale_df, Bella_Vista_df], axis=0)
 
 df2 = pd.concat([df1, Bentonville_new_df], axis=0)
 
-# df3 = pd.concat([df2, Bentonville_df], axis=0)
+df3 = pd.concat([df2, Bentonville_df], axis=0)
 
-df4 = pd.concat([df2, Fayetteville_df], axis=0)
+# df4 = pd.concat([df3, Fayetteville_df], axis=0)
 
-df5 = pd.concat([df4, Lowell_df], axis=0)
+df5 = pd.concat([df3, Lowell_df], axis=0)
 
 df = pd.concat([df5, Rogers_df], axis=0)

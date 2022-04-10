@@ -81,7 +81,7 @@ response = urllib.request.urlopen(Fayetteville)
 Fayetteville = json.loads(response.read())
 
 Fayetteville = pd.json_normalize(Fayetteville)
-Fayetteville_amenities = Bentonville_json_normalize['listingAmenities'].explode().apply(pd.Series)
+Fayetteville_amenities = Fayetteville['listingAmenities'].explode().apply(pd.Series)
 Fayetteville_amenities.rename(columns={col:f'amenities_{col}' for col in Fayetteville_amenities.columns}, inplace=True)
 
 
@@ -157,7 +157,7 @@ cols = [col for col in LittleRock.columns if col not in ['amenities_records']]
 LittleRock_df = LittleRock[cols].join(LittleRock_amenities)
 LittleRock_df.dropna(axis=1, how='all', inplace=True)
 
-
+ 
 
 
 
@@ -188,8 +188,8 @@ df5 = pd.concat([df4, Lowell_df], axis=0)
 
 df6 = pd.concat([df5, Rogers_df], axis=0)
 
-df7 = pd.concat([df6, Hot_Springs_df])
+df7 = pd.concat([df6, Hot_Springs_df], axis=0)
 
-df8 = pd.concat([df7, LittleRock_df])
+df8 = pd.concat([df7, LittleRock_df], axis=0)
 
-df = pd.concat([df8, Austin_Tx_df])
+df = pd.concat([df8, Austin_Tx_df], axis=0)
