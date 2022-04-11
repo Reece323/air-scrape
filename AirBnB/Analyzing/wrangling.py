@@ -2,7 +2,8 @@ import re
 import numpy as np
 import pandas as pd
 
-from combine import df
+# from combine import df
+from combine_all import df
 
 # Austin Tx Listings
 df.address = df.address.apply(lambda x: 'Austin, Texas' if 'Texas' in x else x)
@@ -225,7 +226,10 @@ df.columns = df.columns.str.replace('amenities_name_', '')
 df.columns = df.columns.str.replace("Children’s", 'Children')
 df.columns = df.columns.str.replace("Pack_’n_play/", 'Children')
 
-target='pricepernight'
-used_cols = [c for c in df.columns.tolist() if c not in [target]]
-X=df[used_cols]
-y=df[target]
+
+df.to_csv('airbnb_data_cleaned.csv')
+# target='pricepernight'
+# used_cols = [c for c in df.columns.tolist() if c not in [target]]
+# X=df[used_cols]
+# y=df[target]
+

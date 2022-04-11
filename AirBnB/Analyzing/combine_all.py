@@ -76,7 +76,7 @@ Bentonville_df.dropna(axis=1, how='all', inplace=True)
 
 
 
-Fayetteville = 'https://raw.githubusercontent.com/Reece323/air-scrape/main/AirBnB/Data/Fayetteville.json'
+Fayetteville = 'https://raw.githubusercontent.com/Reece323/air-scrape/main/AirBnB/Data/Fayetteville_new.json'
 response = urllib.request.urlopen(Fayetteville)
 Fayetteville = json.loads(response.read())
 
@@ -190,6 +190,6 @@ df6 = pd.concat([df5, Rogers_df], axis=0)
 
 df7 = pd.concat([df6, Hot_Springs_df], axis=0)
 
-df8 = pd.concat([df7, LittleRock_df], axis=0)
+df = pd.concat([df7, LittleRock_df], axis=0)
 
-df = pd.concat([df8, Austin_Tx_df], axis=0)
+# df = pd.concat([df8, Austin_Tx_df], axis=0)
