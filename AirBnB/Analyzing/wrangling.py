@@ -227,9 +227,10 @@ df.columns = df.columns.str.replace("Children’s", 'Children')
 df.columns = df.columns.str.replace("Pack_’n_play/", 'Children')
 
 
-df.to_csv('airbnb_data_cleaned.csv')
+df.to_csv('airbnb_data_all.csv')
 # target='pricepernight'
 # used_cols = [c for c in df.columns.tolist() if c not in [target]]
 # X=df[used_cols]
 # y=df[target]
+# .to_csv('airbnb_all.csv')
 
